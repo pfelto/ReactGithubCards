@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{
+  flex: 1;
+  border: 2px dashed red;
+}
+
+.githubAdder {
+  flex: 3;
+  border: 2px solid black;
+}
+
+.cardList{
+  flex: 5;
+  border: 2px dotted purple
+}
+
+.Card{
+  border: 2px solid black;
+  margin: 2px;
+  padding: 2px;
+}
